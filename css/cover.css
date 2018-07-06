@@ -1,16 +1,24 @@
-/*
- * Globals
- */
-
+/* ===== */
 /* Links */
+/* ===== */
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
 
-/* Custom default button */
-.btn-secondary { 
+/* ====================== */
+/* Buttons for expansions */
+/* ====================== */
+
+.btn-container {
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+/* Vanilla */
+.btn-vanilla { 
   background-image: url("../img/vanilla-icon.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -18,15 +26,170 @@ a:hover {
   width: 250px;
   border: none;
   filter: grayscale(100%);
+  display: inline-block;
   -webkit-filter: grayscale(100%);
   transition: filter 750ms ease-in-out;
   -webkit-transition: -webkit-filter 750ms ease-in-out;
 }
-.btn-secondary:hover {
+.btn-vanilla:hover {
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
 }
-.btn-secondary span {
+.btn-vanilla span {
+  display: none;
+}
+
+/* The Burning Crusade */ 
+.btn-tbc { 
+  background-image: url("../img/tbc-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 250px;
+  width: 250px;
+  border: none;
+  filter: grayscale(100%);
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  transition: filter 750ms ease-in-out;
+  -webkit-transition: -webkit-filter 750ms ease-in-out;
+}
+.btn-tbc:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.btn-tbc span {
+  display: none;
+}
+
+/* Wrath of the Lich King */
+.btn-wotlk { 
+  background-image: url("../img/wotlk-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 250px;
+  width: 250px;
+  border: none;
+  filter: grayscale(100%);
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  transition: filter 750ms ease-in-out;
+  -webkit-transition: -webkit-filter 750ms ease-in-out;
+}
+.btn-wotlk:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.btn-wotlk span {
+  display: none;
+}
+
+/* Cataclysm */
+.btn-cata { 
+  background-image: url("../img/cata-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 250px;
+  width: 250px;
+  border: none;
+  filter: grayscale(100%);
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  transition: filter 750ms ease-in-out;
+  -webkit-transition: -webkit-filter 750ms ease-in-out;
+}
+.btn-cata:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.btn-cata span {
+  display: none;
+}
+
+/* Mists of Pandaria */
+.btn-mop { 
+  background-image: url("../img/mop-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 250px;
+  width: 250px;
+  border: none;
+  filter: grayscale(100%);
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  transition: filter 750ms ease-in-out;
+  -webkit-transition: -webkit-filter 750ms ease-in-out;
+}
+.btn-mop:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.btn-mop span {
+  display: none;
+}
+
+/* Warlords of Draenor */
+.btn-wod { 
+  background-image: url("../img/wod-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 250px;
+  width: 250px;
+  border: none;
+  filter: grayscale(100%);
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  transition: filter 750ms ease-in-out;
+  -webkit-transition: -webkit-filter 750ms ease-in-out;
+}
+.btn-wod:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.btn-wod span {
+  display: none;
+}
+
+/* Legion */
+.btn-legion { 
+  background-image: url("../img/legion-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 250px;
+  width: 250px;
+  border: none;
+  filter: grayscale(100%);
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  transition: filter 750ms ease-in-out;
+  -webkit-transition: -webkit-filter 750ms ease-in-out;
+}
+.btn-legion:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.btn-legion span {
+  display: none;
+}
+
+/* Battle for Azeroth */
+.btn-bfa { 
+  background-image: url("../img/bfa-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 250px;
+  width: 250px;
+  border: none;
+  filter: grayscale(100%);
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  transition: filter 750ms ease-in-out;
+  -webkit-transition: -webkit-filter 750ms ease-in-out;
+}
+.btn-bfa:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.btn-bfa span {
   display: none;
 }
 
