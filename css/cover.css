@@ -194,23 +194,20 @@ a:hover {
 }
 
 
-/*
- * Base structure
- */
+/* ==== */
+/* Body */
+/* ==== */
 
 html,
 body {
   background-image: url("../img/cover-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+/*  height: 100%;*/
   background-color: #333;
 }
 
 body {
-  background-image: url("../img/cover-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   display: -ms-flexbox;
   display: flex;
   color: #fff;
