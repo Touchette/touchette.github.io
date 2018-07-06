@@ -17,7 +17,6 @@ a:hover {
   height: 250px;
   width: 250px;
   border: none;
-  border-radius: 100%;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   transition: filter 750ms ease-in-out;
