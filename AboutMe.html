@@ -16,15 +16,17 @@
     <link href="css/index.css" rel="stylesheet">
   </head>
 
+  <!-- Body Class -->
   <body class="text-center">
 
+    <!-- Navbar -->
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
       <header class="masthead mb-auto">
         <div class="inner">
           <h3 class="masthead-brand"></h3>
           <nav class="nav nav-masthead justify-content-center">
             <font face="Friz-Quadrata-Std">
-            <a class="nav-link navbar-pad" href="https://touchette.github.io/">Home</a>
+            <a class="nav-link navbar-pad" href="Index.html">Home</a>
             </font>
             <font face="Friz-Quadrata-Std">
             <a class="nav-link active navbar-pad" href="AboutMe.html">About Me</a>
@@ -38,20 +40,24 @@
 
     <div class="container">
       <div class="starter-template">
-        <h1>WIP</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas non eros elit. Integer tincidunt posuere lectus, in consectetur massa facilisis id. Maecenas arcu odio, condimentum at mi sit amet, finibus pharetra augue. Nulla convallis facilisis convallis. Etiam et neque maximus, mollis velit eu, blandit augue. Vestibulum sit amet arcu sed tellus vulputate scelerisque. Mauris tincidunt sapien urna, in ultrices odio mattis a. Suspendisse ac nulla volutpat neque cursus fringilla. Quisque bibendum urna lacus, nec congue odio varius eget. </p>
+        <img src="img/about-me.png" alt="About Me">
+        <a href="#" data-toggle="tooltip" title="<img src='img/tooltip-test.png'>">Welcome</a>
       </div>
-
     </div>
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../js/jquery-3.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/jquery-3.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
-  
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip({
+          html: true
+        });
+      });
+    </script>
 
 </body></html>
