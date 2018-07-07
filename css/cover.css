@@ -17,6 +17,15 @@ div img {
   margin-right: auto;
 }
 
+/* ============= */
+/* Text Wrappers */
+/* ============= */
+
+.navbar-pad {
+  text-align: center;
+  margin-right: 8px;
+}
+
 /* ====================== */
 /* Buttons for expansions */
 /* ====================== */
@@ -47,6 +56,16 @@ div img {
 }
 .btn-vanilla span {
   display: none;
+}
+.vanilla-text {
+  position: middle;
+  visibility: hidden;
+}
+.btn-vanilla a {
+  display: none;
+}
+.btn-vanilla a:hover {
+  display: block;
 }
 
 /* The Burning Crusade */ 
@@ -210,11 +229,15 @@ div img {
 
 html,
 body {
-  background-image: url("../img/cover-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-/*  height: 100%;*/
-  background-color: #333;
+  background: #1e5799;
+  background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(100%,#7db9e8));
+  background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+  background: -o-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+  background: -ms-linear-gradient(top,  #1e5799 0%,#7db9e8 100%);
+  background: linear-gradient(to bottom,  #1e5799 0%,#7db9e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+  background-attachment: fixed;
 }
 
 body {
@@ -229,10 +252,32 @@ body {
   max-width: 84em;
 }
 
+/* =============== */
+/* Body Animations */
+/* =============== */
 
-/*
- * Header
- */
+ @-webkit-keyframes InfiniteGradient {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+@-moz-keyframes InfiniteGradient {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+@keyframes InfiniteGradient {
+    0%{background-position:50% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:50% 0%}
+}
+
+/* ====== */
+/* Header */
+/* ====== */
+
 .masthead {
   margin-bottom: 2rem;
 }
