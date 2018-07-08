@@ -27,6 +27,32 @@ div img {
   margin-right: 8px;
 }
 
+/* ===================== */
+/* Miscellaneous Buttons */
+/* ===================== */
+
+/* Rep Boost Button */ 
+.btn-repboost { 
+  background-image: url("../img/rep-boost-icon.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 75px;
+  width: 250px;
+  border: none;
+  filter: grayscale(100%);
+  display: inline-block;
+  -webkit-filter: grayscale(100%);
+  transition: filter 425ms ease-in-out;
+  -webkit-transition: -webkit-filter 425ms ease-in-out;
+}
+.btn-repboost:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
+.btn-repoost span {
+  display: none;
+}
+
 /* ======================== */
 /* Buttons for achievements */
 /* ======================== */
@@ -36,8 +62,8 @@ div img {
   background-image: url("../img/70reps-test.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  height: 30px;
-  width: 202px;
+  height: 23px;
+  width: 193px;
   border: none;
   display: inline-block;
 }
