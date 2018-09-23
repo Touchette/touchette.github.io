@@ -1,0 +1,80 @@
+@font-face {
+	font-family: "Champagne & Limousines";
+	src: url(../fonts/Champagne&Limousines.ttf);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Champagne & Limousines";
+	text-align: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg.png);
+    background-size: cover;
+	margin: 0;
+}
+
+#particles-js {
+	top: 0;
+	left: 0;
+	height: 99%;
+	width: 99%;
+	position: absolute;
+	z-index: -1 !important;
+}
+
+/* ==== h1 ==== */
+
+h1 {
+	/* position: absolute; */
+	font-family: 'Champagne & Limousines';
+	display: inline-block;
+	line-height: 95px;
+	height: 96px;
+	font-size: 96px;
+	font-weight: 400;
+	padding-top: 200px;
+	color: white;
+}
+
+/* ==== h2 ==== */
+
+h2 {
+	font-size: 24px;
+	font-weight: 400;
+	color: white;
+}
+
+/* ==== img ==== */
+
+img {
+	align-content: center;
+	padding-top: 20px;
+}
+
+/* ==== button ==== */
+
+.button {
+	text-decoration: none;
+	border-style: solid;
+	display: inline-block;
+	font-size: 22px;
+	border-width: 2px;
+	padding: 5px 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.button-accent {
+	color: white;
+	border-color: white;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+	transition: 0.5s;
+	opacity: 1;
+	background: white;
+	color: black
+}
