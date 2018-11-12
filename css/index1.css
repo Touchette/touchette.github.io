@@ -8,6 +8,15 @@
 	box-sizing: border-box;
 }
 
+html {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/bg.png);
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	margin: 0;
+}
+
 body {
 	font-family: "Champagne & Limousines";
 	text-align: center;
@@ -16,7 +25,6 @@ body {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
 	margin: 0;
 }
 
