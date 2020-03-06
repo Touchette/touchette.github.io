@@ -16,6 +16,16 @@ body {
 	margin: 0;
 }
 
+a {
+	text-decoration: underline;
+	color: white;
+}
+
+a:visited {
+	text-decoration: underline;
+	color: white;
+}
+
 #particles-js {
 	top: 0;
 	left: 0;
